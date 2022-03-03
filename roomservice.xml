@@ -3,4 +3,5 @@
   <project name="Moto-G4-Plus/android_device_motorola_athene" path="device/motorola/athene" remote="github" revision="lineage-17.1" />
   <project name="Moto-G4-Plus/android_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="github" revision="lineage-17.1" />
   <project name="Moto-G4-Plus/proprietary_vendor_motorola" path="vendor/motorola/athene" remote="github" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
 </manifest>
