@@ -4,7 +4,7 @@
 
 # microG support
 cd frameworks/base/
-git fetch https://github.com/Moto-G4-Plus/android_frameworks_base.git lineage-17.1
+git fetch https://github.com/snakehugo73/android_frameworks_base.git lineage-17.1
 git cherry-pick 415cb27d4b1bea131fb0e272cc6827942bcf9bfa
 cd ../../
 
