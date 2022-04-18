@@ -12,3 +12,8 @@ cd ../../
 cd frameworks/base/
 git cherry-pick 8b7e9f0403a33d102ffe83d708b364837b33e4c7 46219a80130f3eac096cc71a1744951053c33254 2356ad5e806276629f7f23b3d16a7351c216a72a b883fa646ff985aa7b1780b48e00baf8bc02a29f
 cd ../../
+
+# Some prebuilts still need old logging method, therefore revert commit 3b70eedfa047e3d4d4370caabdcff7ca267a6568
+cd system/core/
+git revert 3b70eedfa047e3d4d4370caabdcff7ca267a6568
+cd ../../
